@@ -10,8 +10,8 @@ library('leaflet')
 
 
 ### Table 
-Tab_1 <- read.csv("Tabela_2.csv", header=TRUE)
-Tab_2 <- read.csv("Tabela_6.csv", header=TRUE)
+Tab_1 <- read.csv("File_2.csv", header=TRUE)
+Tab_2 <- read.csv("File_6.csv", header=TRUE)
 sketch_1 = htmltools::withTags(table(class = 'display',
                                      thead(
                                        tr(
